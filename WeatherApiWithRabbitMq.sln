@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31004.235
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "WebApplication2\WeatherApi.csproj", "{F7C7E675-F9B6-424B-AD21-96CF44A4E64F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApi", "WeatherApi.Demo\WeatherApi.csproj", "{F7C7E675-F9B6-424B-AD21-96CF44A4E64F}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EC83AC4A-391A-4947-A5C0-4E733400BC45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Messaging.Send", "WeatherApi.Messaging.Send\WeatherApi.Messaging.Send.csproj", "{78B3F45B-7105-4524-A2FD-5BBCB1F1139C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApi.Messaging.Send", "WeatherApi.Messaging.Send\WeatherApi.Messaging.Send.csproj", "{78B3F45B-7105-4524-A2FD-5BBCB1F1139C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{96227E76-B560-42C7-95C1-C135176597E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.Domain", "Weather.Domain\Weather.Domain.csproj", "{AE7715A4-1458-4212-B71B-ACE55EA0BC7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Domain", "Weather.Domain\Weather.Domain.csproj", "{AE7715A4-1458-4212-B71B-ACE55EA0BC7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.Service", "Weather.Service\Weather.Service.csproj", "{34FB47D9-4D9B-49C3-9873-DFB2C55C2953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Service", "Weather.Service\Weather.Service.csproj", "{34FB47D9-4D9B-49C3-9873-DFB2C55C2953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Messaging.Receiver", "WeatherApi.Messaging.Receiver\WeatherApi.Messaging.Receiver.csproj", "{CFBF16AB-17CB-4080-B500-2C744153206E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApi.Messaging.Receiver", "WeatherApi.Messaging.Receiver\WeatherApi.Messaging.Receiver.csproj", "{CFBF16AB-17CB-4080-B500-2C744153206E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.Data", "Weather.Data\Weather.Data.csproj", "{B925F4B5-C17B-4887-A38C-B4B7B6A309E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Data", "Weather.Data\Weather.Data.csproj", "{B925F4B5-C17B-4887-A38C-B4B7B6A309E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +59,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F7C7E675-F9B6-424B-AD21-96CF44A4E64F} = {96227E76-B560-42C7-95C1-C135176597E8}
+		{EC83AC4A-391A-4947-A5C0-4E733400BC45} = {96227E76-B560-42C7-95C1-C135176597E8}
 		{78B3F45B-7105-4524-A2FD-5BBCB1F1139C} = {96227E76-B560-42C7-95C1-C135176597E8}
 		{AE7715A4-1458-4212-B71B-ACE55EA0BC7F} = {96227E76-B560-42C7-95C1-C135176597E8}
 		{34FB47D9-4D9B-49C3-9873-DFB2C55C2953} = {96227E76-B560-42C7-95C1-C135176597E8}
