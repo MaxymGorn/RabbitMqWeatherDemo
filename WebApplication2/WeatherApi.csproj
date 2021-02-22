@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>0bec2c64-1e9d-4472-9f56-53139e7b4871</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Weather.Data\Weather.Data.csproj" />
+    <ProjectReference Include="..\Weather.Domain\Weather.Domain.csproj" />
+    <ProjectReference Include="..\Weather.Service\Weather.Service.csproj" />
+    <ProjectReference Include="..\WeatherApi.Messaging.Receiver\WeatherApi.Messaging.Receiver.csproj" />
+  </ItemGroup>
+
+</Project>

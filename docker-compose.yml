@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  webapplication2:
+    image: ${DOCKER_REGISTRY-}webapplication2
+    build:
+      context: .
+      dockerfile: WebApplication2/Dockerfile
+
+  rabbitmq:
+      image: rabbitmq:3-management
+      expose:
+        - "5672"
+      ports:
+        - "8081:15672"
